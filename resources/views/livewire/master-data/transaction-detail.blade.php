@@ -144,7 +144,7 @@
     @if($parcel_id)
     <div class="modal fade" wire:ignore.self id="formDataModal" aria-labelledby="formDataModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content tw-bg-gray-400">
+            <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="formDataModalLabel">QR Code untuk Pickup</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
