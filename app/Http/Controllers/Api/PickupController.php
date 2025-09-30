@@ -155,7 +155,7 @@ class PickupController extends Controller
     {
         try {
             $request->validate([
-                'kode_pengambilan' => 'required|string|size:6'
+                'kode_pengambilan' => 'required'
             ]);
 
             $kode_pengambilan = $request->kode_pengambilan;
